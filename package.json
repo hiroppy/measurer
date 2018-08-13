@@ -10,6 +10,9 @@
   "dependencies": {
     "chalk": "^2.4.1"
   },
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
     "@types/chalk": "^2.2.0",
     "@types/node": "^10.5.8",
