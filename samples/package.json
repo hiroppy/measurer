@@ -1,0 +1,26 @@
+{
+  "name": "samples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:node": "ts-node server.tsx",
+    "start:browser": "parcel index.html",
+    "build:browser": "parcel build index.html"
+  },
+  "author": "hiroppy <git@hiroppy.me> (https://hiroppy.me)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react-dom": "^16.0.7",
+    "parcel-bundler": "^1.9.7",
+    "prettier": "^1.14.2",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}

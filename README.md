@@ -6,7 +6,7 @@ Simple performance helper for the Browser and Node.js.
 
 - Measures the execution time of a method
 - Supports decorators
-- Uses `timerify` in Node.js and `performance.measure` in Browser
+- Uses `timerify` in Node.js, `performance.measure` in Browser
 
 ## Install
 
@@ -20,7 +20,7 @@ $ npm i measurer
 import { measure } from 'measurer';
 
 class Robot {
-  @measure()
+  @measure() // just add it here
   calc() {
     const len = 64 * 1024 * 1024;
     const b = Buffer.allocUnsafe(len);
@@ -37,9 +37,9 @@ const robot = new Robot();
 roboot.calc(); // output: name: calc | duration: 3.047741ms
 ```
 
-### Measure Component's render of React
+### Measure Component's render
 
-You can see samples.
+You can see [samples](/samples).
 
 #### Common Component
 
