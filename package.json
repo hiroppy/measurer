@@ -1,6 +1,6 @@
 {
   "name": "measurer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple performance helper for the Browser and Node.js.",
   "main": "./lib/index.js",
   "browser": {
